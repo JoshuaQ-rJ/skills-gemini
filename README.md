@@ -8,6 +8,7 @@ Repositorio personal con las skills personalizadas creadas para Gemini y Antigra
 - **`buenas-practicas`**: Configuración de proyectos Python con uv, linters (Ruff), pytest y estructura base.
 - **`contexto-joshua`**: Información sobre materias en la CUC y proyectos en Riwi (SonoraPlay, CargaExpress).
 - **`dart-fundamentos`**: Enseñanza y revisión de Dart 3 básico con los ejercicios del POS de restaurante, verificado con la documentación oficial.
+- **`diseno-frontend`**: Diseño y construcción de interfaces web con criterio senior (dirección, tokens, valores exactos de pulido, UX y verificación renderizada), evitando el look genérico de IA.
 - **`detectar-texto-oculto`**: Detección de texto oculto, caracteres invisibles o prompts escondidos en PDFs y Word (.docx) antes de procesarlos.
 - **`estilo-janner`**: Patrones de arquitectura (Clean Architecture, microservicios) y convenciones de Janner Gonzalez.
 - **`fisica-mecanica-cuc`**: Resolución y verificación de talleres de Física Mecánica (CUC) usando estrictamente el método y fórmulas del profesor.
@@ -16,6 +17,7 @@ Repositorio personal con las skills personalizadas creadas para Gemini y Antigra
 - **`ponytail`**: Enfoque en la solución más simple y directa que resuelva el problema sin sobreingeniería.
 - **`ponytail-audit`**: Auditoría de repositorios para identificar código innecesario, riesgos y cuellos de botella.
 - **`ponytail-review`**: Revisión práctica de cambios, diffs y pull requests.
+- **`revision-interfaz`**: Auditoría de interfaces web existentes con heurísticas de Nielsen y WCAG 2.2, con informe priorizado por severidad.
 - **`skill-router`**: Selección y carga automática de las skills necesarias al inicio de cada tarea.
 - **`source-driven-development`**: Soporte en documentación oficial con enlaces directos para decisiones técnicas.
 - **`spec-driven-development`**: Definición de especificaciones y requerimientos antes de escribir código.
