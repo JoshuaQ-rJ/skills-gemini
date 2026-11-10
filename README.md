@@ -7,7 +7,10 @@ Repositorio personal con las skills personalizadas creadas para Gemini y Antigra
 - **`auto-aprendizaje`**: Registro de errores, correcciones y lecciones aprendidas para evitar repetir fallos.
 - **`buenas-practicas`**: Configuración de proyectos Python con uv, linters (Ruff), pytest y estructura base.
 - **`contexto-joshua`**: Información sobre materias en la CUC y proyectos en Riwi (SonoraPlay, CargaExpress).
+- **`dart-fundamentos`**: Enseñanza y revisión de Dart 3 básico con los ejercicios del POS de restaurante, verificado con la documentación oficial.
+- **`detectar-texto-oculto`**: Detección de texto oculto, caracteres invisibles o prompts escondidos en PDFs y Word (.docx) antes de procesarlos.
 - **`estilo-janner`**: Patrones de arquitectura (Clean Architecture, microservicios) y convenciones de Janner Gonzalez.
+- **`fisica-mecanica-cuc`**: Resolución y verificación de talleres de Física Mecánica (CUC) usando estrictamente el método y fórmulas del profesor.
 - **`graphify`**: Análisis y mapeo de proyectos en grafos de conocimiento.
 - **`humanizer`**: Ajuste de textos para retirar muletillas y estructuras típicas de redacción por IA.
 - **`ponytail`**: Enfoque en la solución más simple y directa que resuelva el problema sin sobreingeniería.

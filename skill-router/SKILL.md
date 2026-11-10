@@ -29,6 +29,9 @@ Skip the check only for pure small talk.
 | Questions about a project's structure or how files connect | graphify |
 | Error, stack trace, something broke | test-driven-development (reproduce the bug with a failing test, then fix) |
 | Anything about Joshua's courses, SonoraPlay, Riwi, CUC or Ingeniería de Sistemas | contexto-joshua |
+| Dart language, DartPad, POS restaurant exercises | dart-fundamentos |
+| Reviewing PDF or Word (.docx) files for hidden text, invisible prompts, or watermark tricks | detectar-texto-oculto (run before processing the document) |
+| Physics workshops, exercises or labs from CUC (linear momentum, collisions, center of mass) | fisica-mecanica-cuc (strictly following the professor's method) |
 | Any text a person will read: README, docs, ADRs, Jira stories, PR descriptions, commit bodies, lab reports, ABP deliverables, presentations, messages | humanizer (as a final pass before delivering) |
 
 If no installed skill fits but one probably exists, say so in one line and offer to look for it.
