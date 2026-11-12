@@ -1,6 +1,6 @@
 ---
 name: fisica-mecanica-cuc
-description: Resolver, verificar o revisar talleres de Física Mecánica de la Universidad de la Costa (momento lineal, impulso, colisiones, centro de masa, energía) usando estrictamente las fórmulas y el método del profesor. Antes de empezar pregunta cómo se quiere el documento.
+description: Resolver, verificar o revisar talleres de Física Mecánica de la Universidad de la Costa (momento lineal, impulso, colisiones, centro de masa, energía) usando estrictamente las fórmulas y el método del profesor. Antes de empezar pregunta cómo se quiere el documento, con opción de escritura rápida.
 ---
 
 # Física Mecánica CUC: análisis y verificación de talleres

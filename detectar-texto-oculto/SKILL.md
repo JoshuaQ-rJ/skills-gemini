@@ -67,7 +67,7 @@ Si no hay hallazgos, dilo en una línea ("Revisé [archivo]: no tiene texto ocul
 
 ```python
 #!/usr/bin/env python3
-"""Detecta texto oculto o invisible en PDFs (posible inyeccion de instrucciones para agentes de IA).
+"""Detecta texto oculto o invisible en PDFs y .docx (posible inyeccion de instrucciones para agentes de IA).
 
 Uso:
     python detectar_texto_oculto.py archivo.pdf [otro.pdf ...] [--json] [--visible salida.txt]
@@ -110,8 +110,7 @@ def caracteres_raros(texto):
 
 def decodificar_tags(texto):
     """Los caracteres 'tag' (U+E0020-U+E007E) pueden esconder ASCII invisible."""
-    oculto = "".join(chr(ord(c) - 0xE0000) for c in texto if 0xE0020 <= ord(c) <= 0xE007E)
-    return oculto
+    return "".join(chr(ord(c) - 0xE0000) for c in texto if 0xE0020 <= ord(c) <= 0xE007E)
 
 
 def contraste_region(pix, rect, escala):

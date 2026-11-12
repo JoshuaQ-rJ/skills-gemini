@@ -5,7 +5,7 @@ description: Diseña y construye interfaces web con criterio de diseñador senio
 
 # Diseño frontend
 
-Síntesis de lo mejor de ckw-design-skill (dirección + verificación renderizada), jakubkrehel/skills (valores exactos de pulido), ui-ux-pro-max (prioridades UX), scroll-craft (landings con ritmo) y owl-listener/designer-skills (leyes de UX).
+Síntesis de lo mejor de ckw-design-skill (dirección + verificación renderizada), jakubkrehel/skills (valores exactos de pulido), ui-ux-pro-max (prioridades UX), scroll-craft (landings con ritmo), owl-listener/designer-skills (leyes de UX), el frontend-design oficial de Anthropic y nutlope/hallmark (señales de diseño generado) y emilkowalski/skills (criterio de animación).
 
 La idea central: un modelo genera la UI como texto, nunca la ve. Por eso (1) su primera idea es el promedio de todo lo que ha visto y (2) no puede notar choques, desbordes ni desequilibrios. Este proceso corrige las dos cosas: decidir una dirección propia antes de codificar, y renderizar y mirar antes de dar algo por terminado.
 
@@ -23,6 +23,16 @@ Trata tu primer instinto como el promedio y aléjate a propósito hacia el mundo
 
 - Promedio genérico de IA: Inter, degradado morado sobre blanco, una columna centrada, tres tarjetas iguales, emojis como íconos.
 - Promedio "de diseñador de moda": mayúsculas condensadas gigantes, modo oscuro con grano, microtexto monoespaciado decorativo ("35MM · SCAN"), stickers.
+
+Señales concretas de diseño generado (lista del frontend-design oficial de Anthropic y de nutlope/hallmark), úsalas solo si el brief las pide:
+- Fondo crema (~#F4F1EA) con serif de alto contraste y acento terracota (~#D97757); fondo casi negro con un único acento verde ácido o bermellón.
+- Etiqueta en MAYÚSCULAS con tracking encima de cada título (eyebrow), metadatos unidos con "·", "→" pegada al texto de links y botones, numeración 01/02/03 cuando el contenido no es una secuencia.
+- Una sola palabra del titular en itálica, negrita u otro color.
+- Todo cortado en tarjetas idénticas con el mismo radio y la misma sombra gris, tarjeta dentro de tarjeta, degradado morado-azul.
+- Monoespaciada para etiquetas pequeñas, negro teñido (#111) en lugar de negro.
+- Fade-and-slide en cada sección y hover animado en cada tarjeta.
+
+Haz el plan en dos pasadas: primero un plan corto (4–6 colores con hex, tipografías y su rol, layout en una frase o wireframe ASCII, principios), luego revísalo contra el brief y cambia todo lo que saldría igual en cualquier página parecida. Solo después escribe código.
 
 Si el resultado podría ser de cualquier startup, entregaste el promedio.
 
@@ -55,6 +65,8 @@ Espaciado: una escala (4/8px) y aplícala con consistencia; más aire alrededor 
 ## 3. Valores exactos de pulido
 
 Estos valores vienen probados; úsalos tal cual salvo que el proyecto tenga una convención propia consistente.
+
+Antes de animar algo, pregunta en orden (emilkowalski/skills): ¿debe animarse? (no en acciones de teclado, superficies de uso muy frecuente ni datos funcionales), ¿qué comunica?, ¿qué propiedades? (transform y opacity), ¿qué curva y duración? (ease-out para entrar, menos de 300ms en UI), ¿se puede interrumpir?
 
 - Radios anidados: radio exterior = radio interior + padding (+ borde). El hijo nunca más redondo que el padre. Con más de 24px de padding, trátalos como superficies independientes.
 - Sombras para elevación, bordes para estructura. Mantén bordes en divisores, tablas, inputs y estados seleccionados. Bajo un anillo de sombra deja `border: 1px solid transparent` para que el modo alto contraste aún dibuje el borde.
@@ -96,7 +108,8 @@ Fuentes: si son externas, `preconnect` + `font-display: swap` con fallback ajust
 
 Para páginas de marketing (servicios, inmobiliaria, marca personal, producto):
 
-- Un mensaje héroe y una acción principal inequívoca arriba del pliegue; acciones secundarias presentes pero sin competir.
+- Un mensaje héroe y una acción principal inequívoca arriba del pliegue; acciones secundarias presentes pero sin competir. Titular, una frase y la acción principal visibles a 1280×800 sin hacer scroll; unas 80 palabras como máximo por pantalla.
+- El contenedor tiene ancho máximo y se centra: en 1920px crecen los márgenes, no la medida del texto ni la grilla.
 - Decide si el primer golpe es emocional o racional y alinea copy y layout con eso.
 - Variedad de secciones: no repitas el mismo patrón dos veces seguidas (texto+imagen, grilla, cita grande, cifras, galería, testimonio real, CTA). Cinco secciones idénticas son una sola sección vista cinco veces.
 - Una curva emocional con un solo pico diseñado (el momento "wow"), no todo al máximo.

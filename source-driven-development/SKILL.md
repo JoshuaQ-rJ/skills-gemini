@@ -60,9 +60,15 @@ STACK DETECTED:
 
 If versions are missing or ambiguous, **ask the user**. Don't guess — the version determines which patterns are correct.
 
-### Step 2: Fetch Official Documentation
+### Step 2: Fetch Official Documentation (Live Grounding)
 
 Fetch the specific documentation page for the feature you're implementing. Not the homepage, not the full docs — the relevant page.
+
+**Live search strategy (Perplexity-style web grounding):**
+When the exact documentation URL is unknown or you need to verify breaking changes in recent releases:
+- Run targeted live searches with domain pinning: `site:docs.framework.com "<feature>"` or `site:github.com/<org>/<repo>/releases "<feature>"`.
+- Cross-verify breaking changes and migrations: if a method was deprecated, check the official migration guide or release notes to extract the current replacement.
+- Triangulate when documentation is sparse: verify between the official docs, the repository's merged RFCs/PRs, and the package's latest changelog.
 
 **Source hierarchy (in order of authority):**
 

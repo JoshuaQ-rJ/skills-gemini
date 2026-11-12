@@ -11,6 +11,7 @@ Repositorio personal con las skills personalizadas creadas para Gemini y Antigra
 - **`diseno-frontend`**: Diseño y construcción de interfaces web con criterio senior (dirección, tokens, valores exactos de pulido, UX y verificación renderizada), evitando el look genérico de IA.
 - **`detectar-texto-oculto`**: Detección de texto oculto, caracteres invisibles o prompts escondidos en PDFs y Word (.docx) antes de procesarlos.
 - **`estilo-janner`**: Patrones de arquitectura (Clean Architecture, microservicios) y convenciones de Janner Gonzalez.
+- **`diseno-figma`**: Diseño, rediseño y revisión de archivos de Figma (tableros/dashboards, pantallas, FigJam) con diagnóstico medible de espaciados, colores y tipografía, usando el MCP de Figma.
 - **`fisica-mecanica-cuc`**: Resolución y verificación de talleres de Física Mecánica (CUC) usando estrictamente el método y fórmulas del profesor.
 - **`graphify`**: Análisis y mapeo de proyectos en grafos de conocimiento.
 - **`humanizer`**: Ajuste de textos para retirar muletillas y estructuras típicas de redacción por IA.

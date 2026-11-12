@@ -37,6 +37,7 @@ Joshua instala skills con propósito y espera que se utilicen de forma proactiva
 |---|---|
 | Diseñar o maquetar interfaces web (landing pages, dashboards, apps, Tailwind, CSS, tipografía, paleta del dominio, responsive) evitando el look genérico de IA | `diseno-frontend` |
 | Auditar o criticar una interfaz existente (URL, captura o código) por usabilidad (Nielsen), accesibilidad (WCAG 2.2) y maquetación | `revision-interfaz` |
+| Cualquier cosa en Figma o FigJam: link de figma.com, diseñar, arreglar o revisar un tablero, dashboard, pantalla o componente en Figma | `diseno-figma` (más la skill oficial `figma-use` de Figma para la mecánica del MCP) |
 | Widgets interactivos en chat, simuladores HTML, controles dinámicos o visualizaciones de datos enriquecidas | `generative_ui` |
 
 ### 3. Depuración Web y Navegador (Chrome DevTools MCP)
